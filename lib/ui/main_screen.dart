@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:starter_app/common/constants.dart';
 
 class MainScreen extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class MainScreen extends StatelessWidget {
         title: Text('Starter App'),
       ),
       body: Center(
-        child: Text('Hello Flutter 🐦'),
+        child: Text('Hello Flutter 🐦', style: titleTextStyle),
       ),
     );
   }

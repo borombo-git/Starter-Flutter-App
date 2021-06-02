@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // Colors
 const kAccentColor = Color(0xFFEEAAD8);
 const kTransparent = Color(0x00FFFFFF);
 
 // Text Style
-const kLinkStyle =
-    TextStyle(color: Colors.black, decoration: TextDecoration.underline);
+final titleTextStyle = GoogleFonts.josefinSans(
+  color: Colors.white,
+  fontSize: 32,
+  fontWeight: FontWeight.w700,
+);
 
 // Preferences keys
 const kFirstKey = 'key';
