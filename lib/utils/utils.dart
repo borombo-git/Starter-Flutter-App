@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'constants.dart';
+import '../common/constants.dart';
 
 String getDeviceType() {
   final data = MediaQueryData.fromWindow(WidgetsBinding.instance!.window);

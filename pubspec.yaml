@@ -21,7 +21,9 @@ dependencies:
   flutter_launcher_icons: ^0.9.0
   easy_localization: ^3.0.0
   shared_preferences: ^2.0.6
-  lazx: ^1.0.1
+  equatable: ^1.2.3
+  dio: ^4.0.0
+  lazx: ^1.1.1
   flutter_dotenv: ^5.0.0
 
 dev_dependencies:
@@ -33,19 +35,19 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-  assets:
-    - assets/img/
-    - assets/svg/
-    - assets/icon/
-    - .env
+#  assets:
+#    - assets/img/
+#    - assets/svg/
+#    - assets/icon/
+#    - .env
 
 #  fonts:
-#    - family: BigJohn
+#    - family: MyFont
 #      fonts:
-#        - asset: fonts/BigJohnPRO-Regular.otf
-#    - family: BigJohn-Light
+#        - asset: fonts/MyFont-Regular.otf
+#    - family: MyFont-Light
 #      fonts:
-#        - asset: fonts/BigJohnPRO-Light.otf
-#    - family: BigJohn-Bold
+#        - asset: fonts/MyFont-Light.otf
+#    - family: MyFont-Bold
 #      fonts:
-#        - asset: fonts/BigJohnPRO-Bold.otf
+#        - asset: fonts/MyFont-Bold.otf
